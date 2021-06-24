@@ -1,0 +1,56 @@
+/* GOOGLE FONTS */
+$font1: 'Itim', cursive;
+$font2: 'Lato', sans-serif;
+$font3: 'Montserrat', sans-serif;
+
+
+
+body{
+	font-family: $font2;
+}
+h1{
+	font-family: $font3;
+	font-weight: bolder;
+	font-size: 70px;
+}
+h2 {
+	letter-spacing: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 50px;
+}
+h3 {
+	font-size: 40px;
+	font-weight: 600;
+}
+.list__item--p {
+	font-family: $font1;
+}
+.carousel-caption p{
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.btn-light {
+	text-transform: uppercase;
+}
+.card-body {
+	text-transform: uppercase;
+}
+.title {
+	letter-spacing: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 60px;
+}
+
+
+/*--------------------TIENDA---------------*/
+
+.card-header {
+	font-weight: bolder;
+	font-size: 18px;
+}
+.list-group-item {
+	font-weight: normal;
+	font-size: 18px;
+}
